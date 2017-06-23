@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    animation: grow-shrink 1.2s infinite;
+
+}
+
+@keyframes grow-shrink {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
