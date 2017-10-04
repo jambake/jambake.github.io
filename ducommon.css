@@ -18,36 +18,3 @@ h1 {
         transform: scale(2);
     }
 }
-$color-bg: #1F1F3C;
-$color-fur-light: #D5E8F8;
-$color-fur-dark: #8B9BD9;
-$color-features: #4B4D75;
-$color-features-light: #9FA2CB;
-$color-yarn: #DB242A;
-$duration: 7s;
-$easing: cubic-bezier(0.5, 0, 0.5, 1);
-$offset: .5s;
-$swings: 5 -10 10 -15 23 -23 15 -10 5;
-$total-swings: length($swings);
-
-.all-wrap {
-  animation: bob $duration $easing infinite both;
-}
-
-.all {
-  top: 10rem;
-  left: calc(50% - 2.5rem);
-  position: absolute;
-  width: 5rem;
-  height: 5rem;
-  transform-origin: center -20rem;
-  animation: swing $duration $easing infinite both;
-  
-  &:before {
-    height: 20rem;
-    width: 2px;
-    background-color: $color-yarn;
-    left: calc(50% - 1px);
-    bottom: 20rem;
-  }
-}
