@@ -1,10 +1,59 @@
 <html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
 <link href="ducommon.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
 <body>
         <h1>Pick a Dev!!!</h1>
-        <br>
-        <a href="jambake.github.io/TravisRocker.gif"><img src="jambake.github.io/travis.jpg"></a>
+        <div class="container">
+                <a href="jambake.github.io/TravisRocker.gif">
+                        <img src="jambake.github.io/travis.jpg" class="image">
+                        <div class="overlay">
+                                <div class="text">Travis</div>
+                        </div>
+                </a>
+        </div>
         <a href="jambake.github.io/batman.gif"><img src="jambake.github.io/jake.jpg"></a>
         <a href="jambake.github.io/tea.gif"><img src="jambake.github.io/frank.jpg"></a>
         <a href="jambake.github.io/drpepper.gif"><img src="jambake.github.io/ian.jpg"></a>
