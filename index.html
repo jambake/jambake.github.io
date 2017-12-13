@@ -12,6 +12,45 @@
   height: 100;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  grid-template-areas: "a b c d e"
+                       "f g h i j";
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+}
+.travis {
+  grid-area: a;
+}
+.jake {
+  grid-area: b;
+}
+.frank {
+  grid-area: c;
+}
+.ian {
+  grid-area: d;
+}
+.jim {
+  grid-area: e;
+}
+.brandon {
+  grid-area: f;
+}
+.becky {
+  grid-area: g;
+}
+.joe {
+  grid-area: h;
+}
+.danielle {
+  grid-area: i;
+}
+.shay {
+  grid-area: j;
+}
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -46,88 +85,111 @@
 <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
 <body>
         <h1>Pick a Dev!!!</h1>
-        <div class="container">
-                <a href="jambake.github.io/TravisRocker.gif">
+		<div class="grid">
+			<div class="travis">
+				<div class="container">
+					<a href="jambake.github.io/TravisRocker.gif">
 					<img src="jambake.github.io/travis.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Travis</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="jake">
 				<div class="container">
-				<a href="jambake.github.io/batman.gif">
+					<a href="jambake.github.io/batman.gif">
                     <img src="jambake.github.io/jake.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Jake</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="frank">
 				<div class="container">
-                <a href="jambake.github.io/tea.gif">
+					<a href="jambake.github.io/tea.gif">
                     <img src="jambake.github.io/frank.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Frank</div>
 						</div>
-				</a>
+					</a>
 				</div>
+			</div>
+			<div class="ian">
 				<div class="container">
-                <a href="jambake.github.io/drpepper.gif">
+					<a href="jambake.github.io/drpepper.gif">
 					<img src="jambake.github.io/ian.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Ian</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="jim">
 				<div class="container">
-                <a href="jambake.github.io/drumcat.gif">
+					<a href="jambake.github.io/drumcat.gif">
 					<img src="jambake.github.io/jim.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Jim</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="brandon">
 				<div class="container">
-                <a href="jambake.github.io/ScaryFaceBrandon.jpg">
+					<a href="jambake.github.io/ScaryFaceBrandon.jpg">
 					<img src="jambake.github.io/brandon.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Brandon</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="becky">
 				<div class="container">
-                <a href="jambake.github.io/Inspirational.jpg">
+					<a href="jambake.github.io/Inspirational.jpg">
 					<img src="jambake.github.io/becky.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Becky</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="joe">
 				<div class="container">
-                <a href="jambake.github.io/giphyjoe.gif">
+					<a href="jambake.github.io/giphyjoe.gif">
 					<img src="jambake.github.io/joe.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Joe</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="danielle">
 				<div class="container">
-                <a href="jambake.github.io/spiderpig.gif">
+					<a href="jambake.github.io/spiderpig.gif">
 					<img src="jambake.github.io/danielle.jpg" class="image">
 						<div class="overlay">
 							<div class="text">Danielle</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>
+			<div class="shay">
 				<div class="container">
-                <a href="jambake.github.io/TurkeyTrotShay.jpg">
+					<a href="jambake.github.io/TurkeyTrotShay.jpg">
 					<img src="jambake.github.io/Shay.jpg" height="100" class="image">
 						<div class="overlay">
 							<div class="text">Shay</div>
 						</div>
-                </a>
+					</a>
 				</div>
+			</div>	
+		</div>
         <h3><a href="jambake.github.io/giphy.gif">Is Support An Impediment?!</a></h3> 
 </body>
 </html>
+
 
 
