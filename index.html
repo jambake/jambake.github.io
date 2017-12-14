@@ -15,9 +15,10 @@
 .grid {
   display: grid;
   grid-template-columns: auto repeat(5, 90px) auto;
-  grid-template-rows: repeat(2, 100px);
+  grid-template-rows: repeat(3, 100px);
   grid-template-areas: ". a b c d e . "
-                       ". f g h i j .";
+                       ". f g h i j ."
+					   ". . . k . . .";
   grid-auto-flow: dense;
   grid-gap: 10px
 }
@@ -59,6 +60,10 @@
 }
 .shay {
   grid-area: j;
+  justify-self: center;
+}
+.alec {
+  grid-area: k;
   justify-self: center;
 }
 .overlay {
@@ -196,6 +201,16 @@
 					</a>
 				</div>
 			</div>	
+			<div class="alec">
+				<div class="container">
+					<a href="jambake.github.io/gangster.jpg">
+					<img src="jambake.github.io/alec.jpg" height="100" class="image">
+						<div class="overlay">
+							<div class="text">Alec</div>
+						</div>
+					</a>
+				</div>
+			</div>
 		</div>
         <h3><a href="jambake.github.io/giphy.gif">Is Support An Impediment?!</a></h3> 
 </body>
