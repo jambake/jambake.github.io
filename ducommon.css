@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-image: url("Background.jpg");
+    background-color: #cccccc;
     color: white;
     text-align: center;
     font-family: 'Carter One', cursive;
