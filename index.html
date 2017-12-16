@@ -1,103 +1,9 @@
+<!DOCTYPE html>
 <html>
 <head>
-<style>
-.container {
-  position: relative;
-  width: 90;
-}
-
-.image {
-  display: inherit;
-  width: 90;
-  height: 100;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: auto repeat(5, 90px) auto;
-  grid-template-rows: repeat(3, 100px);
-  grid-template-areas: ". a b c d e . "
-                       ". f g h i j ."
-					   ". . . k . . .";
-  grid-auto-flow: dense;
-  grid-gap: 10px
-}
-.travis {
-  grid-area: a;
-  justify-self: center;
-}
-.jake {
-  grid-area: b;
-  justify-self: center;
-}
-.frank {
-  grid-area: c;
-  justify-self: center;
-}
-.ian {
-  grid-area: d;
-  justify-self: center;
-}
-.jim {
-  grid-area: e;
-  justify-self: center;
-}
-.brandon {
-  grid-area: f;
-  justify-self: center;
-}
-.becky {
-  grid-area: g;
-  justify-self: center;
-}
-.joe {
-  grid-area: h;
-  justify-self: center;
-}
-.danielle {
-  grid-area: i;
-  justify-self: center;
-}
-.shay {
-  grid-area: j;
-  justify-self: center;
-}
-.alec {
-  grid-area: k;
-  justify-self: center;
-}
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 90;
-  height:0;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
-
-.text {
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-</style>
+    <link href="ducommon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
 </head>
-<link href="ducommon.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
 <body>
         <h1>Pick a Dev!!!</h1>
 		<div class="grid">
@@ -212,6 +118,6 @@
 				</div>
 			</div>
 		</div>
-        <h3><a href="jambake.github.io/giphy.gif">Is Support An Impediment?!</a></h3>
+        <h3><a href="jambake.github.io/support.html">Is Support An Impediment?!</a></h3>
 </body>
 </html>
