@@ -72,7 +72,7 @@ body {
 }
 .overlay {
   position: absolute;
-  bottom: 100%;
+  top: 100%;
   left: 0;
   right: 0;
   background-color: #008CBA;
@@ -83,7 +83,7 @@ body {
 }
 
 .container:hover .overlay {
-  bottom: 0;
+  top: 0;
   height: 100%;
 }
 
