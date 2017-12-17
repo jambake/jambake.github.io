@@ -72,7 +72,7 @@ body {
 }
 .overlay {
   position: absolute;
-  bottom: 0%;
+  top: 100%;
   left: 0;
   right: 0;
   background-color: #008CBA;
