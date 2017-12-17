@@ -13,7 +13,7 @@ body {
 .image {
   display: inherit;
   width: 90;
-  height: inherit;
+  height: 100;
 }
 
 .grid {
@@ -84,7 +84,7 @@ body {
 
 .container:hover .overlay {
   top: 0;
-  height: 100%;
+  height: 100;
 }
 
 .text {
