@@ -13,7 +13,7 @@ body {
 .image {
   display: inherit;
   width: 90;
-  height: 100;
+  height: inherit;
 }
 
 .grid {
