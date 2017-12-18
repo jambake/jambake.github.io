@@ -72,8 +72,8 @@ body {
   justify-self: center;
 }
 .ie {
-  gri-area: l;
-  Justify-self: center;
+  grid-area: l;
+  justify-self: center;
 }
 .overlay {
   position: absolute;
