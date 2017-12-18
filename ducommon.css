@@ -19,10 +19,11 @@ body {
 .grid {
   display: grid;
   grid-template-columns: auto repeat(5, 90px) auto;
-  grid-template-rows: repeat(3, 100px);
+  grid-template-rows: repeat(4, 100px);
   grid-template-areas: ". a b c d e . "
                        ". f g h i j ."
-					   ". . . k . . .";
+		       ". . . k . . ."
+	  	       ". . . l . . .";
   grid-auto-flow: dense;
   grid-gap: 10px
 }
@@ -69,6 +70,10 @@ body {
 .alec {
   grid-area: k;
   justify-self: center;
+}
+.ie {
+  gri-area: l;
+  Justify-self: center;
 }
 .overlay {
   position: absolute;
