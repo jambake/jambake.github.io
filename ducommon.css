@@ -63,10 +63,6 @@ body {
   grid-area: i;
   justify-self: center;
 }
-.shay {
-  grid-area: j;
-  justify-self: center;
-}
 .alec {
   grid-area: k;
   justify-self: center;
