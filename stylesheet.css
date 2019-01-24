@@ -8,7 +8,7 @@ body {
 .container {
   position: relative;
   width: 90;
-  padding-top: 60px;
+  padding-top: 75px;
 }
 
 .image {
@@ -36,7 +36,7 @@ body {
 }
 .overlay {
   position: absolute;
-  top: 0;
+  top: 75px;
   bottom: 100%;
   left: 0;
   right: 0;
