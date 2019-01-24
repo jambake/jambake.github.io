@@ -26,48 +26,12 @@ body {
   grid-auto-flow: dense;
   grid-gap: 10px
 }
-.travis {
-  grid-area: a;
-  justify-self: center;
-}
 .jake {
   grid-area: b;
   justify-self: center;
 }
-.frank {
-  grid-area: c;
-  justify-self: center;
-}
-.ian {
-  grid-area: d;
-  justify-self: center;
-}
 .jim {
   grid-area: e;
-  justify-self: center;
-}
-.brandon {
-  grid-area: f;
-  justify-self: center;
-}
-.becky {
-  grid-area: g;
-  justify-self: center;
-}
-.joe {
-  grid-area: h;
-  justify-self: center;
-}
-.danielle {
-  grid-area: i;
-  justify-self: center;
-}
-.alec {
-  grid-area: j;
-  justify-self: center;
-}
-.ie {
-  grid-area: k;
   justify-self: center;
 }
 .overlay {
@@ -85,6 +49,8 @@ body {
 .container:hover .overlay {
   bottom: 0;
   height: 100%;
+  position: relative;
+  padding-top: 50%;
 }
 
 .text {
