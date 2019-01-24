@@ -1,10 +1,15 @@
 body {
-    background-image: url("jambake.github.io/Background.jpg");
+    background-image: url("jambake.github.io/Background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: #cccccc;
     color: white;
     text-align: center;
     font-family: 'Carter One', cursive;
 }
+
 .container {
   position: relative;
   width: 90;
