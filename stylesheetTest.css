@@ -8,7 +8,7 @@
   top: 0;
   height: 60px;
   width: 100%;
-  background-color: #85929E;
+  background-color: #515151;
 }
 
 #side-nav {
@@ -18,7 +18,7 @@
   left: 0;
   right: 0;
   overflow-y: scroll;
-  background-color: #EAECEE;
+  background-color: #ADABAB;
   top: 60px;
 }
 
@@ -30,5 +30,5 @@
   left: 0;
   top: 0;
   height: 100vh;
-  background-color: #F8F9F9;
+  background-color: #CECECE;
 }
