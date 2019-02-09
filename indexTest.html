@@ -2,30 +2,25 @@
 <html>
 
 <head>
-  <link href="stylesheet.css" rel="stylesheet">
+  <link href="stylesheetTest.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
 </head>
 
 <body>
   <div id="wrapper">
-    <div id="top-nav"> Top </div>
     <div id="side-nav">
       <ul>
-        <li>Lorem ipsum dolor sit amet, vix illud suscipit te, sed purto postulant an. An alia pertinax accommodare vix, eu qui soluta animal argumentum. Has errem inimicus in, eu ius lorem voluptaria dissentiunt, pri eu erant impetus. Nam cu debet
-          nostrum forensibus, usu purto falli ne. Homero deleniti laboramus vix ut. Natum mentitum ne pri, vis probo quaestio volutpat eu, cum no quaestio accusamus interesset. Insolens voluptatibus ei usu. Ex his salutatus percipitur, ad nam
-          expetendis intellegam. Summo homero ut qui, alii vero suscipiantur vel at. Autem pericula sed ex. Lucilius sadipscing id sit, est ei nominavi accusamus, ad nam dolore adolescens suscipiantur. Posse primis consequuntur in ius. Mea debitis
-          delectus expetendis ne. At placerat vituperatoribus mea, eleifend temporibus conclusionemque ex vim, vis ad unum option eligendi. Vidisse offendit iudicabit id est, modo singulis maiestatis per te. Usu viderer scripserit no, no sensibus
-          gloriatur mei. His illud dicat at, nemore dolores salutatus nec ne, error delicata concludaturque id mea. Nec ut altera vulputate vituperatoribus, ius id nonumes interesset liberavisse. Te has posse docendi. Vel ne tota vidisse meliore, ei
-          cum quidam adipisci iudicabit. Te cibo viris partiendo cum. Harum prompta electram nam no, eu eum alia primis labores. An quis novum cum, id nam modus audiam concludaturque, duo aliquam maiestatis eu. Qui at cetero torquatos referrentur.
-          Per vidisse civibus fastidii ne, id his elitr explicari definiebas. Alienum intellegam mea in, ut unum assum rationibus per. Ex mei hinc illum lobortis. Elit corpora in mei, ne conceptam theophrastus vix, usu prompta rationibus referrentur
-          te. Te legimus ponderum pro, ei cum insolens comprehensam. Per in graeci insolens, at eum sint vocibus instructior. Id sed expetenda consetetur signiferumque. Ne labitur salutatus consetetur est, ad laoreet detracto sententiae sea,
-          nominati adipiscing ea mel. Possit oporteat an vim. Ei mel saepe iuvaret voluptatibus, sit ad vero laoreet deseruisse, nam ex viris persecuti. Facilisis persequeris cu per, ne usu gloriatur delicatissimi. Stet partem fabellas per et. Et
-          minimum explicari eloquentiam ius, ex ius vitae rationibus, solet conclusionemque ad pro. Partem postea vis an. Te est detracto constituto, an sit consul ubique viderer. Et eos idque causae pertinax. Per cu vitae exerci deserunt, at mea
-          soleat iisque suavitate. No nec quando veniam conclusionemque. Qui cu mutat dolorem voluptaria. Id doctus deserunt mel. Malis quidam mei eu. Id pro bonorum efficiantur consequuntur. Eu probo quidam vocent eum, vis an malis luptatum. Ad duo
-          sale impetus, ut cum elit dissentias complectitur, paulo gloriatur moderatius id his. Pro meis abhorreant constituam in. Dicat essent eam et. Esse summo expetenda ad pro, ad elit mucius has. Te dicit denique evertitur eum. Ei vel ipsum
-          ludus. Vix ei audire legimus, eam illum omnes inciderint ei. Ne zril torquatos sed, pro oporteat quaerendum ne, amet facer constituto sea ea. Illud nihil luptatum ei usu. Qui meis veniam molestiae an, eos mandamus comprehensam te, partem
-          vituperata complectitur ad sea.
-        </li>
+        <li>Introduction</li>
+        <li>Test 1</li>
+        <li>Test 2</li>
+        <li>Test 3</li>
+        <li>Test 4</li>
+        <li>Test 5</li>
+        <li>Test 6</li>
+        <li>Test 7</li>
+        <li>Test 8</li>
+        <li>Test 9</li>
+        <li>Test 10</li>
       </ul>
     </div>
     <div id="content-wrapper">
@@ -46,8 +41,78 @@
       <p>A sample test API key is included in all the examples here, so you can test any example right away. To test requests using your account, replace the sample API key with your actual API key.
       </p>
     </div>
-  </div>
-  <div id="content-wrapper2">
+    <div id="content-wrapper">
+      <h1>Authentication</h1>
+      <p>The Stripe API uses <a href="/docs/keys">API keys</a> to authenticate requests. You can view and manage your API keys in <a href="/login?redirect=/account/apikeys">the Stripe
+          Dashboard</a>.</p>
+      <p>Test mode secret keys have the prefix <code>sk_test_</code> and live mode secret keys have the prefix <code>sk_live_</code>. Alternatively, you can use <a href="/docs/keys#limiting-access-with-restricted-api-keys">restricted API
+          keys</a> for granular permissions.</p>
+      <p>Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
+      </p>
+      <p>Authentication to the API is performed via <a href="http://en.wikipedia.org/wiki/Basic_access_authentication">HTTP Basic
+          Auth</a>. Provide your API key as the basic auth username value. You do not need to provide a password.</p>
+      <p>If you need to authenticate via bearer auth (e.g., for a cross-origin request), use <code>-H "Authorization: Bearer
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc"</code> instead of <code>-u
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc</code>.</p>
+      <p>All API requests must be made over <a href="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS</a>. Calls made over plain HTTP will fail. API requests without authentication will also fail.
+      </p>
+      <p>A sample test API key is included in all the examples here, so you can test any example right away. To test requests using your account, replace the sample API key with your actual API key.
+      </p>
+    </div>
+    <div id="content-wrapper">
+      <h1>Authentication</h1>
+      <p>The Stripe API uses <a href="/docs/keys">API keys</a> to authenticate requests. You can view and manage your API keys in <a href="/login?redirect=/account/apikeys">the Stripe
+          Dashboard</a>.</p>
+      <p>Test mode secret keys have the prefix <code>sk_test_</code> and live mode secret keys have the prefix <code>sk_live_</code>. Alternatively, you can use <a href="/docs/keys#limiting-access-with-restricted-api-keys">restricted API
+          keys</a> for granular permissions.</p>
+      <p>Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
+      </p>
+      <p>Authentication to the API is performed via <a href="http://en.wikipedia.org/wiki/Basic_access_authentication">HTTP Basic
+          Auth</a>. Provide your API key as the basic auth username value. You do not need to provide a password.</p>
+      <p>If you need to authenticate via bearer auth (e.g., for a cross-origin request), use <code>-H "Authorization: Bearer
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc"</code> instead of <code>-u
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc</code>.</p>
+      <p>All API requests must be made over <a href="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS</a>. Calls made over plain HTTP will fail. API requests without authentication will also fail.
+      </p>
+      <p>A sample test API key is included in all the examples here, so you can test any example right away. To test requests using your account, replace the sample API key with your actual API key.
+      </p>
+    </div>
+    <div id="content-wrapper">
+      <h1>Authentication</h1>
+      <p>The Stripe API uses <a href="/docs/keys">API keys</a> to authenticate requests. You can view and manage your API keys in <a href="/login?redirect=/account/apikeys">the Stripe
+          Dashboard</a>.</p>
+      <p>Test mode secret keys have the prefix <code>sk_test_</code> and live mode secret keys have the prefix <code>sk_live_</code>. Alternatively, you can use <a href="/docs/keys#limiting-access-with-restricted-api-keys">restricted API
+          keys</a> for granular permissions.</p>
+      <p>Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
+      </p>
+      <p>Authentication to the API is performed via <a href="http://en.wikipedia.org/wiki/Basic_access_authentication">HTTP Basic
+          Auth</a>. Provide your API key as the basic auth username value. You do not need to provide a password.</p>
+      <p>If you need to authenticate via bearer auth (e.g., for a cross-origin request), use <code>-H "Authorization: Bearer
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc"</code> instead of <code>-u
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc</code>.</p>
+      <p>All API requests must be made over <a href="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS</a>. Calls made over plain HTTP will fail. API requests without authentication will also fail.
+      </p>
+      <p>A sample test API key is included in all the examples here, so you can test any example right away. To test requests using your account, replace the sample API key with your actual API key.
+      </p>
+    </div>
+    <div id="content-wrapper">
+      <h1>Authentication</h1>
+      <p>The Stripe API uses <a href="/docs/keys">API keys</a> to authenticate requests. You can view and manage your API keys in <a href="/login?redirect=/account/apikeys">the Stripe
+          Dashboard</a>.</p>
+      <p>Test mode secret keys have the prefix <code>sk_test_</code> and live mode secret keys have the prefix <code>sk_live_</code>. Alternatively, you can use <a href="/docs/keys#limiting-access-with-restricted-api-keys">restricted API
+          keys</a> for granular permissions.</p>
+      <p>Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
+      </p>
+      <p>Authentication to the API is performed via <a href="http://en.wikipedia.org/wiki/Basic_access_authentication">HTTP Basic
+          Auth</a>. Provide your API key as the basic auth username value. You do not need to provide a password.</p>
+      <p>If you need to authenticate via bearer auth (e.g., for a cross-origin request), use <code>-H "Authorization: Bearer
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc"</code> instead of <code>-u
+          sk_test_4eC39HqLyjWDarjtT1zdp7dc</code>.</p>
+      <p>All API requests must be made over <a href="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS</a>. Calls made over plain HTTP will fail. API requests without authentication will also fail.
+      </p>
+      <p>A sample test API key is included in all the examples here, so you can test any example right away. To test requests using your account, replace the sample API key with your actual API key.
+      </p>
+    </div>
   </div>
 </body>
 
