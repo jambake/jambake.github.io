@@ -23,12 +23,49 @@
 }
 
 #content-wrapper {
-  margin: 60px 0 0 250px;
-  padding: 0 30px;
+  width: 40%;
+  margin-left: 250px;
+  margin-top: 60px;
+  /*
+  margin-left: 250px;
+  margin-right: 500px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  */
+  padding-left: 30px;
+  padding-right: 30px;
   overflow-y: scroll;
   position: fixed;
   left: 0;
   top: 0;
   height: 100vh;
   background-color: #CECECE;
+}
+
+#content-wrapper-code {
+  width: 40%;
+  margin-left: 60%;
+  margin-top: 60px;
+  /*
+  margin-left: 250px;
+  margin-right: 500px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  */
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow-y: scroll;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #0E0E0E;
+}
+
+#p1 {
+    color: black;
+}
+
+#p2 {
+    color: white;
 }
